@@ -14,6 +14,7 @@
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="Cath">
 <meta property="og:description" content="cath blog">
+<meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Cath">
 <meta name="twitter:description" content="cath blog">
@@ -158,27 +159,58 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-First-Post" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-first" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/05/19/First-Post/">First Post</a>
+      <a class="article-title" href="/2017/08/03/first/">first</a>
     </h1>
   
 
         
-        <a href="/2017/05/19/First-Post/" class="archive-article-date">
-  	<time datetime="2017-05-19T01:05:57.169Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-19</time>
+        <a href="/2017/08/03/first/" class="archive-article-date">
+  	<time datetime="2017-08-03T07:08:34.134Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-03</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="小绮琳的第一个博客"><a href="#小绮琳的第一个博客" class="headerlink" title="小绮琳的第一个博客"></a>小绮琳的第一个博客</h1>
+        <p>摘自<a href="http://javascript.ruanyifeng.com/nodejs/npm.html#toc12" target="_blank" rel="external">http://javascript.ruanyifeng.com/nodejs/npm.html#toc12</a> 阮一峰博客</p>
+<h1 id="npm命令"><a href="#npm命令" class="headerlink" title="npm命令"></a>npm命令</h1><blockquote>
+<p>更新到最新版</p>
+</blockquote>
+<pre><code>$ npm install npm@latest -g
+</code></pre><blockquote>
+<p>上面的命令中，@latest表示最新版本，-g表示全局安装。所以，命令的主干是npm install npm，也就是使用npm安装自己。之所以可以这样，是因为npm本身与Node的其他模块没有区别。</p>
+</blockquote>
+<pre><code># 查看 npm 命令列表
+$ npm help
+
+# 查看各个命令的简单用法
+$ npm -l
+
+# 查看 npm 的版本
+$ npm -v
+
+# 查看 npm 的配置
+$ npm config list -l
+</code></pre><blockquote>
+<p><strong>npm init</strong>用来初始化生成一个新的package.json文件。它会向用户提问一系列问题，如果你觉得不用修改默认配置，一路回车就可以了。</p>
+<p>如果使用了-f（代表force）、-y（代表yes），则跳过提问阶段，直接生成一个新的package.json文件。</p>
+</blockquote>
+<pre><code>$ npm init -y
+</code></pre><blockquote>
+<p><strong>npm set</strong>用来设置环境变量。</p>
+</blockquote>
+<pre><code>$ npm set init-author-name &apos;Your name&apos;
+$ npm set init-author-email &apos;Your email&apos;
+$ npm set init-author-url &apos;http://yourdomain.com&apos;
+$ npm set init-license &apos;MIT&apos;
+</code></pre>
       
 
       
@@ -190,7 +222,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/05/19/First-Post/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/08/03/first/">展开全文 >></a>
         </p>
       
 
@@ -212,13 +244,13 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/05/18/hello-world/">Hello World</a>
+      <a class="article-title" href="/2017/08/03/hello-world/">Hello World</a>
     </h1>
   
 
         
-        <a href="/2017/05/18/hello-world/" class="archive-article-date">
-  	<time datetime="2017-05-18T09:52:21.175Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-05-18</time>
+        <a href="/2017/08/03/hello-world/" class="archive-article-date">
+  	<time datetime="2017-08-03T07:06:24.472Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-03</time>
 </a>
         
       </header>
@@ -229,7 +261,7 @@
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a><br>
         
-          <a class="article-more-a" href="/2017/05/18/hello-world/#more">more >></a>
+          <a class="article-more-a" href="/2017/08/03/hello-world/#more">more >></a>
         
       
 
@@ -242,7 +274,54 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/05/18/hello-world/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/08/03/hello-world/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+
+
+
+
+  
+    <article id="post-First-Post" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/08/03/First-Post/">First Post</a>
+    </h1>
+  
+
+        
+        <a href="/2017/08/03/First-Post/" class="archive-article-date">
+  	<time datetime="2017-08-03T07:06:24.467Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-03</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="小绮琳的第一个博客"><a href="#小绮琳的第一个博客" class="headerlink" title="小绮琳的第一个博客"></a>小绮琳的第一个博客</h1>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2017/08/03/First-Post/">展开全文 >></a>
         </p>
       
 
